@@ -51,3 +51,18 @@ banPlayer("bad word", player1);
 //     Um programa simples porém ótimo para exercitar como funciona a passagem de parâmetros em funções!
 
 // ----- English -----
+
+//   In this example there is a little program that simulates a chat ban system in an online Game,
+//  in the program there's the player object that contains a certain amount of gameplay free Time
+//  and returns whatever the player types in the chat.
+
+//   Inside the "banPlayer" function we receive a text that represents what the player typed in the chat,
+// and the object that represents that specific player, in this case player1. In this function we got the "option"
+// object that stores the banning time and the reason why they got banned.
+
+//   Inside the banning function the player's "talk" function is activated with the given "text" parameter.
+// If the function's result is equal to a "bad word", which means, an unallowed word, the banning time will be subtracted
+// from the player's "freeTime", in this case called "banTime", also it's informed in the chat that the player lost a certain amount of days from the "freeTime"
+// for the reason that is represented as "reason", and  it shows the amount of time the player got left.
+
+//   It's a simple program, yet it's great for exercising how parameters work within functions!
